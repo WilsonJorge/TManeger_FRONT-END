@@ -17,14 +17,23 @@
 	
 		<!-- BOOTSTRAP CSS -->
 		
-		<link id="style" href="/css/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<!-- <link id="style" href="/css/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> -->
+
+		<link id="style" href="../public/css/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 		<!-- STYLE CSS -->
-		<link href="/css/style.css" rel="stylesheet" />
+		<!-- <link href="/css/style.css" rel="stylesheet" /> -->
+
+		<link href="../public/css/style.css" rel="stylesheet" />
 	
-		<link href="/css/skin-modes.css.map" rel="stylesheet" />
+		<!-- <link href="/css/skin-modes.css.map" rel="stylesheet" /> -->
+
+
+		<link href="../public/css/skin-modes.css.map" rel="stylesheet" />
 	
 		<!--- FONT-ICONS CSS -->
-		<link href="/css/icons.css" rel="stylesheet" />
+		<!-- <link href="/css/icons.css" rel="stylesheet" /> -->
+
+		<link href="../public/css/icons.css" rel="stylesheet" />
 
 
 
@@ -34,7 +43,9 @@
 
 		<!-- GLOBAL-LOADER -->
 		<div id="global-loader">
-			<img src="../assets/images/loader.svg" class="loader-img" alt="Loader">
+			<!-- <img src="../assets/images/loader.svg" class="loader-img" alt="Loader"> -->
+
+			<img src="../public/css/images/loader.svg" class="loader-img" alt="Loader">
 		</div>
 		<!-- /GLOBAL-LOADER -->
 
@@ -48,9 +59,9 @@
 					<div class="d-flex">
 						<a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-bs-toggle="sidebar" href="#"></a>
 						<!-- sidebar-toggle-->
-						<a class="logo-horizontal " href="/index.html">
-                            <img src="/cs/images/brand/intellica2.png" class="header-brand-img desktop-logo" alt="logo">
-                            <img src="css//images/brand/intellica2.png" class="header-brand-img light-logo1"
+						<a class="logo-horizontal " href="index.html">
+                            <img src="../public/cs/images/brand/intellica2.png" class="header-brand-img desktop-logo" alt="logo">
+                            <img src="../public/css//images/brand/intellica2.png" class="header-brand-img light-logo1"
                                 alt="logo">
                         </a>
 						<!-- LOGO -->
@@ -102,7 +113,7 @@
 										<!-- COUNTRY -->
 										<div class="dropdown d-md-flex main-header-notification flag-dropdown">
 											<a class="nav-link icon text-center country-nav-link" data-bs-target="#country-selector" data-bs-toggle="modal">
-												<img class="header-icons language" alt="" src="/css/images/flags/mz.svg"/>
+												<img class="header-icons language" alt="" src="../public/css/images/flags/mz.svg"/>
 											</a>
 										</div>
 										<!-- SEARCH -->
@@ -200,7 +211,7 @@
 										<div class="dropdown d-md-flex profile-1">
 											<a href="#" data-bs-toggle="dropdown" class="nav-link pe-2 leading-none d-flex animate">
 												<span>
-													<img src="/css/images/faces/6.jpg" alt="profile-user"
+													<img src="../public/css/images/faces/6.jpg" alt="profile-user"
 														 class="avatar  profile-user brround cover-image">
 												</span>
 												<div class="text-center p-1 d-flex d-lg-none-max">
@@ -234,11 +245,11 @@
 					<div class="app-sidebar">
 						<div class="side-header">
 							
-							<a class="header-brand1 " href="/index.html">
-								<img src="/css/images/brand/intellica2.png" class="header-brand-img desktop-logo" alt="logo">
-								<img src="/css/images/brand/intellica2.png" class="header-brand-img toggle-logo" alt="logo">
-								<img src="/css/images/brand/intellica2.png" class="header-brand-img light-logo" alt="logo">
-								<img src="/css/images/brand/intellica2.png" class="header-brand-img light-logo1" alt="logo">
+							<a class="header-brand1 " href="index.html">
+								<img src="../public/css/images/brand/intellica2.png" class="header-brand-img desktop-logo" alt="logo">
+								<img src="../public/css/images/brand/intellica2.png" class="header-brand-img toggle-logo" alt="logo">
+								<img src="../public/css/images/brand/intellica2.png" class="header-brand-img light-logo" alt="logo">
+								<img src="../public/css/images/brand/intellica2.png" class="header-brand-img light-logo1" alt="logo">
 							</a>
 							<!-- LOGO -->
 		
@@ -269,10 +280,10 @@
 									</a>
 									<ul class="slide-menu">
 										<li class="side-menu-label1"><a href="javascript:void(0)">Registo</a></li>
-										<g:link class="slide-item">Registar Departamento</g:link>
-										<g:link class="slide-item">Registar Categoria</g:link>
-										<g:link class="slide-item">Lista de Departamento</g:link>
-										<g:link class="slide-item">Lista de Categoria</g:link>
+										<a class="slide-item" href="#">Registar Departamento</a>
+										<a class="slide-item" href="#">Registar Categoria</a>
+										<a class="slide-item" href="#">Lista de Departamento</a>
+										<a class="slide-item" href="#">Lista de Categoria</a>
 									</ul>
 								</li>
 		
@@ -289,8 +300,8 @@
 													class="sub-side-menu__label">Clientes</span><i
 													class="sub-angle fa fa-angle-right"></i></a>
 											<ul class="sub-slide-menu">
-												<a href="/clients.html" class="sub-slide-item" controller="cliente" action="index" >Clientes</a>
-												<a href="/client-create.html" class="sub-slide-item">Adicionar Clientes</a>
+												<a href="clients.html" class="sub-slide-item" controller="cliente" action="index" >Clientes</a>
+												<a href="client-create.html" class="sub-slide-item">Adicionar Clientes</a>
 											</ul>
 										</li>
 		
@@ -309,11 +320,11 @@
 													class="sub-side-menu__label">Projectos</span><i
 													class="sub-angle fa fa-angle-right"></i></a>
 											<ul class="sub-slide-menu">
-												<a href="/projects.html" class="sub-slide-item">Projetos</a>
+												<a href="projects.html" class="sub-slide-item">Projetos</a>
 		
-												<a href="/projects-list.html" class="sub-slide-item">Lista de Projetos</a>
+												<a href="projects-list.html" class="sub-slide-item">Lista de Projetos</a>
 		
-												<a href="/project-new.html" class="sub-slide-item">Criar Novo Projeto</a>
+												<a href="project-new.html" class="sub-slide-item">Criar Novo Projeto</a>
 		
 											</ul>
 										</li>
@@ -325,9 +336,9 @@
 													class="sub-angle fa fa-angle-right"></i></a>
 											<ul class="sub-slide-menu">
 		
-												<a href="/tasks-list.html" class="sub-slide-item">Lista de Tarefas</a>
+												<a href="tasks-list.html" class="sub-slide-item">Lista de Tarefas</a>
 		
-												<a href="/task-create.html" class="sub-slide-item">Criar Tarefa</a>
+												<a href="task-create.html" class="sub-slide-item">Criar Tarefa</a>
 		
 											</ul>
 										</li>
@@ -620,77 +631,77 @@
 							<ul class="row row-sm p-3">
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block active">
-										<span class="country-selector"><img alt="unitedstates" src="../assets/images/flags/us_flag.jpg" class="me-2 language"></span>United States
+										<span class="country-selector"><img alt="unitedstates" src="../public/css/images/flags/us_flag.jpg" class="me-2 language"></span>United States
 									</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="italy" src="../assets/images/flags/italy_flag.jpg" class="me-2 language"></span>Italy
+										<span class="country-selector"><img alt="italy" src="../public/css/images/flags/italy_flag.jpg" class="me-2 language"></span>Italy
 									</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="spain" src="../assets/images/flags/spain_flag.jpg" class="me-2 language"></span>Spain
+										<span class="country-selector"><img alt="spain" src="../public/css/images/flags/spain_flag.jpg" class="me-2 language"></span>Spain
 									</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="india" src="../assets/images/flags/india_flag.jpg" class="me-2 language"></span>India
+										<span class="country-selector"><img alt="india" src="../public/css/images/flags/india_flag.jpg" class="me-2 language"></span>India
 								</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="french" src="../assets/images/flags/french_flag.jpg" class="me-2 language"></span>French
+										<span class="country-selector"><img alt="french" src="../public/css/images/flags/french_flag.jpg" class="me-2 language"></span>French
 									</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="russia" src="../assets/images/flags/russia_flag.jpg" class="me-2 language"></span>Russia
+										<span class="country-selector"><img alt="russia" src="../public/css/images/flags/russia_flag.jpg" class="me-2 language"></span>Russia
 									</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="germany" src="../assets/images/flags/germany_flag.jpg" class="me-2 language"></span>Germany
+										<span class="country-selector"><img alt="germany" src="../public/css/images/flags/germany_flag.jpg" class="me-2 language"></span>Germany
 									</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="argentina" src="../assets/images/flags/argentina_flag.jpg" class="me-2 language"></span>Argentina
+										<span class="country-selector"><img alt="argentina" src="../public/css/images/flags/argentina_flag.jpg" class="me-2 language"></span>Argentina
 									</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="uae" src="../assets/images/flags/uae_flag.jpg" class="me-2 language"></span>UAE
+										<span class="country-selector"><img alt="uae" src="../public/css/images/flags/uae_flag.jpg" class="me-2 language"></span>UAE
 									</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="austria" src="../assets/images/flags/austria_flag.jpg" class="me-2 language"></span>Austria
+										<span class="country-selector"><img alt="austria" src="../public/css/images/flags/austria_flag.jpg" class="me-2 language"></span>Austria
 									</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="mexico" src="../assets/images/flags/mexico_flag.jpg" class="me-2 language"></span>Mexico
+										<span class="country-selector"><img alt="mexico" src="../public/css/images/flags/mexico_flag.jpg" class="me-2 language"></span>Mexico
 									</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="china" src="../assets/images/flags/china_flag.jpg" class="me-2 language"></span>China
+										<span class="country-selector"><img alt="china" src="../public/css/images/flags/china_flag.jpg" class="me-2 language"></span>China
 								</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="poland" src="../assets/images/flags/poland_flag.jpg" class="me-2 language"></span>Poland
+										<span class="country-selector"><img alt="poland" src="../public/css/images/flags/poland_flag.jpg" class="me-2 language"></span>Poland
 									</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="canada" src="../assets/images/flags/canada_flag.jpg" class="me-2 language"></span>Canada
+										<span class="country-selector"><img alt="canada" src="../public/css/images/flags/canada_flag.jpg" class="me-2 language"></span>Canada
 									</a>
 								</li>
 								<li class="col-lg-4 mb-2">
 									<a class="btn btn-country btn-lg btn-block">
-										<span class="country-selector"><img alt="malaysia" src="../assets/images/flags/malaysia_flag.jpg" class="me-2 language"></span>Malaysia
+										<span class="country-selector"><img alt="malaysia" src="../public/css/images/flags/malaysia_flag.jpg" class="me-2 language"></span>Malaysia
 									</a>
 								</li>
 							</ul>
@@ -717,43 +728,49 @@
 		<a href="#top" id="back-to-top"><i class="fa fa-long-arrow-up"></i></a>
 
 		<!-- JQUERY JS -->
-		<script src="/js/jquery.min.js"></script>
+		<!-- <script src="/js/jquery.min.js"></script> -->
+
+		<script src="../public/js/jquery.min.js"></script>
 
 		<!-- BOOTSTRAP JS -->
-		<script src="/js/plugins/bootstrap/js/popper.min.js"></script>
-		<script src="/js/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<!-- <script src="/js/plugins/bootstrap/js/popper.min.js"></script> -->
+
+		<script src="../public/js/plugins//bootstrap/js/popper.min.js"></script>
+		<!-- <script src="/js/plugins/bootstrap/js/bootstrap.min.js"></script> -->
+
+		<script src="../public/js/plugins/bootstrap/js/bootstrap.min.js"></script>
 
 		<!-- SELECT2 JS -->
-		<script src="/js/plugins/select2/select2.full.min.js"></script>
+		<script src="../public/js/plugins/select2/select2.full.min.js"></script>
 
         <!-- SIDE-MENU JS -->
-		<script src="/js/plugins/sidemenu/sidemenu.js"></script>
+		<script src="../public/js/plugins/sidemenu/sidemenu.js"></script>
 
 		<!-- Perfect SCROLLBAR JS-->
-		<script src="/js/plugins/p-scroll/perfect-scrollbar.js"></script>
-		<script src="/js/plugins/p-scroll/pscroll.js"></script>
+		<script src="../public/js/plugins/p-scroll/perfect-scrollbar.js"></script>
+		<script src="../public/js/plugins/p-scroll/pscroll.js"></script>
 
 		<!-- bootstrap-datepicker js -->
-		<script src="/js/plugins/bootstrap-datepicker/js/datepicker.js"></script>
+		<script src="../public/js/plugins/bootstrap-datepicker/js/datepicker.js"></script>
 
 		<!-- FORMEDITOR JS -->
-		<script src="/js/plugins/quill/quill.min.js"></script>
+		<script src="../public/js/plugins/quill/quill.min.js"></script>
 
 		<!-- FILE UPLOAD JS -->
-        <script src="/js/plugins/fileuploads/js/fileupload.js"></script>
-        <script src="/js/plugins/fileuploads/js/file-upload.js"></script>
+        <script src="../public/js/plugins/fileuploads/js/fileupload.js"></script>
+        <script src="../public/js/plugins/fileuploads/js/file-upload.js"></script>
 
 		<!-- TASK EDIT JS-->
-		<script src="js/client-create.js"></script>
+		<script src="../public/js/client-create.js"></script>
 
 		<!-- STICKY JS -->
-		<script src="/js/sticky.js"></script>
+		<script src="../public/js/sticky.js"></script>
 
 		<!-- COLOR THEME JS -->
-		<script src="/js/themeColors.js"></script>
+		<script src="../public/js/themeColors.js"></script>
 
 		<!-- CUSTOM JS -->
-		<script src="/js/custom.js"></script>
+		<script src="../public/js/custom.js"></script>
 
 	</body>
 </html>
